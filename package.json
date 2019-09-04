@@ -1,0 +1,22 @@
+{
+  "name": "spyject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx rollup src/index.js --file dist/bundle.js --format umd --name \"spyject\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trassmann/spyject.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trassmann/spyject/issues"
+  },
+  "homepage": "https://github.com/trassmann/spyject#readme",
+  "devDependencies": {
+    "rollup": "^1.20.3"
+  }
+}

@@ -1,1 +1,3 @@
-# spyject
+# spyjunk
+
+Spy on junk. Shh.
