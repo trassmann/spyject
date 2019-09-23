@@ -1,15 +1,15 @@
 {
-  "name": "spyject",
-  "version": "1.0.0",
+  "name": "spyjunk",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/bundle.js",
   "scripts": {
-    "build": "npx rollup src/index.js --file dist/bundle.js --format umd --name \"spyject\"",
+    "build": "npx rollup src/index.js --file dist/bundle.js --format umd --name \"spyjunk\"",
     "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trassmann/spyject.git"
+    "url": "git+https://github.com/trassmann/spyjunk.git"
   },
   "author": "Tormen Raßmann",
   "keywords": [
@@ -22,9 +22,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trassmann/spyject/issues"
+    "url": "https://github.com/trassmann/spyjunk/issues"
   },
-  "homepage": "https://github.com/trassmann/spyject#readme",
+  "homepage": "https://github.com/trassmann/spyjunk#readme",
   "devDependencies": {
     "rollup": "^1.20.3"
   }
