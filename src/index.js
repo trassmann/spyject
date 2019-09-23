@@ -30,15 +30,11 @@ export const makeFunctionSpy = (
   targetFunc = () => {},
   spyName = "defaultFunctionSpy"
 ) => {
-  console.log(
-    `Creating function spy ${spyName} for function: ${JSON.stringify(
-      targetFunc
-    )}`
-  );
+  console.log(`Creating function spy ${spyName} for function: ${targetFunc}`);
   const spyHandlers = {
     apply: function(target, thisArg, argumentsList) {
       console.log(
-        `Called function spy "${spyName}" with arguments ${argumentsList} and context: ${JSON.stringify(
+        `Called function spy "${spyName}" with arguments [${argumentsList}] and context: ${JSON.stringify(
           thisArg
         )}.`
       );
