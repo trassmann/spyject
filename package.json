@@ -2,15 +2,24 @@
   "name": "spyject",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "scripts": {
-    "build": "npx rollup src/index.js --file dist/bundle.js --format umd --name \"spyject\""
+    "build": "npx rollup src/index.js --file dist/bundle.js --format umd --name \"spyject\"",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trassmann/spyject.git"
   },
-  "author": "",
+  "author": "Tormen Raßmann",
+  "keywords": [
+    "consoel.log",
+    "spy",
+    "logging",
+    "object",
+    "function",
+    "access"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/trassmann/spyject/issues"
