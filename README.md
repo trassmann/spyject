@@ -2,6 +2,10 @@
 
 Simple utility to spy on objects and functions. To improve the desperate experience of `console.log` debugging.
 
+## Install
+
+`npm install spyjunk`
+
 ## Usage
 
 ### Object Spy
